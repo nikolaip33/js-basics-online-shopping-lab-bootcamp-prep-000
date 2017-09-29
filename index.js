@@ -23,7 +23,14 @@ function total() {
 }
 
 function removeFromCart(item) {
-  // write your code here
+  for (var i in cart) {
+    if cart[i].hasOwnProperty(item) {
+      cart.splice(i,1)
+    }
+
+  }
+  console.log("why?")
+  return cart;
 }
 
 function placeOrder(cardNumber) {
