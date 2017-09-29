@@ -1,5 +1,5 @@
 var cart = [];
-console.log("test");
+
 
 function getCart() {
  return cart;
@@ -11,7 +11,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-
+  console.log("test" + item);
 }
 
 function viewCart() {
