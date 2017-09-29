@@ -11,7 +11,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- 
+
 }
 
 function viewCart() {
